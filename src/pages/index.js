@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import ProjectsSection from "../components/ProjectsSection";
 import Sidebar from "../components/Sidebar/";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar toggleSidebar={toggleSidebar} />
       <HeroSection />
       <AboutSection />
+      <ProjectsSection />
     </>
   );
 };
