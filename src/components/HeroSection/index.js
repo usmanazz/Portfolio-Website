@@ -12,6 +12,7 @@ import {
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { BsChevronDown } from "react-icons/bs";
+import { GrMail } from "react-icons/gr";
 
 const HeroSection = () => {
   return (
@@ -26,6 +27,9 @@ const HeroSection = () => {
       <HeroLinks>
         <Icon>
           <AiOutlineGithub />
+        </Icon>
+        <Icon>
+          <GrMail />
         </Icon>
         <Icon>
           <FaLinkedin />

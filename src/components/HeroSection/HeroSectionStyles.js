@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 0 20px;
-  height: 850px;
+  height: 800px;
   color: #000;
 `;
 
@@ -17,7 +17,7 @@ export const HeroTitle = styled.h1`
     font-size: 4rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 530px) {
     font-size: 3rem;
   }
 `;
@@ -32,7 +32,7 @@ export const HeroSubTitle = styled.h2`
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   padding: 0 1.5rem;
 
@@ -41,9 +41,9 @@ export const HeroSubTitle = styled.h2`
     padding: 0 1rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 530px) {
     font-size: 0.6rem;
-    padding: 0 0.6rem;
+    padding: 0 0.5rem;
   }
 `;
 
@@ -51,8 +51,8 @@ export const HeroLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 80px;
-  padding-top: 3rem;
+  width: 130px;
+  margin-top: 2rem;
 `;
 
 export const Icon = styled.div`
@@ -62,14 +62,19 @@ export const Icon = styled.div`
   font-size: 1.7rem;
   cursor: pointer;
 
-  &:visited {
+  &:hover {
     color: #01bf71;
+    transition: 0.3s;
   }
 `;
 
 export const ArrowIcon = styled.div`
   font-size: 3.5rem;
   cursor: pointer;
+
+  @media screen and (max-width: 530px) {
+    font-size: 3rem;
+  }
 `;
 
 const animate = keyframes`
@@ -91,7 +96,9 @@ export const ArrowAnimation = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 3rem;
+  /* padding-top: 6rem; */
+  position: absolute;
+  bottom: 2rem;
   animation: ${animate} 2s infinite;
 
   & ${ArrowIcon}:nth-child(2) {
