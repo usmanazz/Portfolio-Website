@@ -7,10 +7,13 @@ export const ProjectContainer = styled.div`
   align-items: center;
   margin-top: 2rem;
   padding: 0 3rem;
-  /* background: blue; */
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 805px) {
     padding: 0 1rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    padding: 0 0.5rem;
   }
 `;
 
@@ -28,39 +31,49 @@ export const ProjectSubtitle = styled.h4`
 export const ProjectRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
+  /* grid-auto-flow: column; */
   column-gap: 3rem;
-  align-items: center;
+  align-items: flex-start;
   grid-template-areas: "col1 col2";
-  margin-top: 0.5rem;
-  /* background: blue; */
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  background: #f2f2f7;
 
   @media screen and (max-width: 768px) {
     grid-template-areas: "col1" "col2";
+    margin-bottom: 2rem;
   }
 `;
 
 export const Column1 = styled.div`
   grid-area: col1;
-  /* background: blue; */
-  height: 700px;
   margin-bottom: 2rem;
+  max-height: 1700px;
 `;
 
 export const Column2 = styled.div`
   grid-area: col2;
-  /* background: green; */
-  height: 700px;
+  max-height: 1700px;
 `;
 
 export const ImgWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 `;
 
 export const ProjectImg = styled.img`
-  width: 350px;
-  height: 350px;
+  width: ${({ imageWidth }) => imageWidth}px;
+  height: ${({ imageHeight }) => imageHeight}px;
+
+  @media screen and (max-width: 495px) {
+    width: ${({ imageWidth, imageHeight }) =>
+      imageWidth > imageHeight ? 350 : imageWidth}px;
+    height: ${({ imageWidth, imageHeight }) =>
+      imageWidth > imageHeight ? 275 : imageHeight}px;
+  }
 
   @media screen and (max-width: 400px) {
     width: 300px;
@@ -79,6 +92,10 @@ export const Icon = styled.div`
   padding-right: 1rem;
   color: #01bf71;
   cursor: pointer;
+`;
+
+export const Link = styled.span`
+  margin-left: 0.3rem;
 `;
 
 export const ProjectText = styled.p`

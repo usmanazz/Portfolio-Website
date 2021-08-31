@@ -12,6 +12,7 @@ import {
   ProjectImg,
   ProjectLinks,
   Icon,
+  Link,
   ProjectText,
   ProjectTech,
   TechList,
@@ -20,69 +21,66 @@ import {
   ProjectSubSection,
 } from "./ProjectStyles";
 
-const Project = () => {
+const Project = ({
+  title,
+  image,
+  imageWidth,
+  imageHeight,
+  altText,
+  links,
+  description,
+  technologies,
+  whatILearned,
+  difficulty,
+  solution,
+}) => {
   return (
     <>
       <ProjectContainer>
-        <ProjectTitle>Recipe Finder</ProjectTitle>
+        <ProjectTitle>{title}</ProjectTitle>
         <ProjectRow>
           <Column1>
             <ImgWrapper>
-              <ProjectImg src={recipeImg} alt="project logo" />
+              <ProjectImg
+                src={image}
+                alt={altText}
+                imageWidth={imageWidth}
+                imageHeight={imageHeight}
+              />
             </ImgWrapper>
             <ProjectLinks>
               <Icon>
-                <VscSourceControl /> Source
+                <VscSourceControl />
+                <Link>Source</Link>
               </Icon>
               <Icon>
-                <FiExternalLink /> Live Demo
+                <FiExternalLink />
+                <Link>Live Demo</Link>
               </Icon>
             </ProjectLinks>
-            <ProjectText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              metus erat, malesuada at libero vitae, ullamcorper porta urna.
-              Morbi malesuada, purus ut egestas feugiat, risus turpis volutpat
-              turpis, at placerat quam augue eget sem.
-            </ProjectText>
+            <ProjectText>{description}</ProjectText>
             <ProjectTech>
               <ProjectSubtitle>Technologies Used</ProjectSubtitle>
               <TechList>
-                <Tech>ReactJS</Tech>
-                <Tech>PostgreSQL</Tech>
-                <Tech>ExpressJS</Tech>
-                <Tech>NodeJS</Tech>
-                <Tech>CSS3</Tech>
+                {technologies.map((tech) => (
+                  <Tech>{tech}</Tech>
+                ))}
               </TechList>
             </ProjectTech>
           </Column1>
           <Column2>
             <ProjectSubSection>
               <ProjectSubtitle>What I learned</ProjectSubtitle>
-              <ProjectText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                metus erat, malesuada at libero vitae, ullamcorper porta urna.
-                Morbi malesuada, purus ut egestas feugiat, risus turpis volutpat
-                turpis, at placerat quam augue eget sem.
-              </ProjectText>
+              <ProjectText>{whatILearned}</ProjectText>
             </ProjectSubSection>
             <ProjectSubSection>
               <ProjectSubtitle>One Difficult Aspect of Project</ProjectSubtitle>
 
-              <ProjectText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                metus erat, malesuada at libero vitae, ullamcorper porta urna.
-                Morbi malesuada, purus ut egestas feugiat, risus turpis volutpat
-                turpis, at placerat quam augue eget sem.
-              </ProjectText>
+              <ProjectText>{difficulty}</ProjectText>
             </ProjectSubSection>
             <ProjectSubSection>
               <ProjectSubtitle>My Solution</ProjectSubtitle>
-              <ProjectText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                metus erat, malesuada at libero vitae, ullamcorper porta urna.
-                Morbi malesuada, purus ut egestas feugiat, risus turpis volutpat
-                turpis, at placerat quam augue eget sem.
-              </ProjectText>
+              <ProjectText>{solution}</ProjectText>
             </ProjectSubSection>
           </Column2>
         </ProjectRow>
