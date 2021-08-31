@@ -152,7 +152,7 @@ const spotifyList = {
   title: "SpotifyList",
   image: spotifylistImg,
   imageWidth: 425,
-  imageHeight: 350,
+  imageHeight: 300,
   altText: "spotifylist web application",
   links: {
     project: "https://spotifylist.netlify.app/",
@@ -179,7 +179,7 @@ const gradeCalculatorScript = {
   title: "Final Grade Calculator",
   image: gradeCalculatorScriptImg,
   imageWidth: 425,
-  imageHeight: 350,
+  imageHeight: 300,
   altText: "table of student grades for a quarter at UCLA",
   links: {
     github: "https://github.com/usmanazz/final-grade-calculator",
