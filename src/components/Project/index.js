@@ -61,8 +61,8 @@ const Project = ({
             <ProjectTech>
               <ProjectSubtitle>Technologies Used</ProjectSubtitle>
               <TechList>
-                {technologies.map((tech) => (
-                  <Tech>{tech}</Tech>
+                {technologies.map((tech, idx) => (
+                  <Tech key={idx}>{tech}</Tech>
                 ))}
               </TechList>
             </ProjectTech>

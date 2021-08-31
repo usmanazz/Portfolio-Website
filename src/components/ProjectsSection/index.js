@@ -7,8 +7,9 @@ const ProjectsSection = () => {
   return (
     <ProjectsContainer id="projects">
       <ProjectsHeader>Projects</ProjectsHeader>
-      {projects.map((p) => (
+      {projects.map((p, idx) => (
         <Project
+          key={idx}
           title={p.title}
           image={p.image}
           imageWidth={p.imageWidth}
