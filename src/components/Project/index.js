@@ -1,7 +1,6 @@
 import React from "react";
 import { VscSourceControl } from "react-icons/vsc";
 import { FiExternalLink } from "react-icons/fi";
-import recipeImg from "../../images/food-spoon-fork-logo.jpeg";
 import {
   ProjectContainer,
   ProjectRow,

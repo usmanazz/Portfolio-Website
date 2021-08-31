@@ -9,7 +9,7 @@ import {
 
 const AboutSection = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <AboutTitle>About Me</AboutTitle>
       <AboutTextContainer>
         <AboutText>

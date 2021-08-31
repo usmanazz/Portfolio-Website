@@ -1,12 +1,11 @@
 import React from "react";
-import Card from "../Card";
 import Project from "../Project";
 import { ProjectsContainer, ProjectsHeader } from "./ProjectsSectionStyles";
 import projects from "../../data/projects";
 
 const ProjectsSection = () => {
   return (
-    <ProjectsContainer>
+    <ProjectsContainer id="projects">
       <ProjectsHeader>Projects</ProjectsHeader>
       {projects.map((p) => (
         <Project

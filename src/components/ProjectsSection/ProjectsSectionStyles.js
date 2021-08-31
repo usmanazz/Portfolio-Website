@@ -5,7 +5,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 80px 24px 24px 24px;
 `;
 
 export const ProjectsHeader = styled.h2`
