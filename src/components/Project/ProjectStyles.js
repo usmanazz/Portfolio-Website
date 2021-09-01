@@ -91,10 +91,22 @@ export const Icon = styled.div`
   align-items: center;
   padding-right: 1rem;
   color: #01bf71;
-  cursor: pointer;
 `;
 
-export const Link = styled.span`
+export const Link = styled.a`
+  color: #01bf71;
+  transition: ${({ hasLink }) => (hasLink ? "0.3s ease-out" : null)};
+  opacity: ${({ hasLink }) => (hasLink ? null : "0.5")};
+  cursor: ${({ hasLink }) => (hasLink ? "pointer" : "default")};
+  text-decoration: none;
+
+  &:hover {
+    transition: ${({ hasLink }) => (hasLink ? "0.3s ease-out" : null)};
+    opacity: 0.5;
+  }
+`;
+
+export const LinkText = styled.span`
   margin-left: 0.3rem;
 `;
 

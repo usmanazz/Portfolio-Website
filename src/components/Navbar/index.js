@@ -7,8 +7,10 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  ResumeLink,
 } from "./NavbarStyles";
 import { FaBars } from "react-icons/fa";
+import resume from "../../files/Usman_Naz_resume.pdf";
 
 const Navbar = ({ toggleSidebar }) => {
   return (
@@ -32,10 +34,12 @@ const Navbar = ({ toggleSidebar }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="resume">Resume</NavLinks>
+              <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <ResumeLink href={resume} target="_blank">
+                Resume
+              </ResumeLink>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

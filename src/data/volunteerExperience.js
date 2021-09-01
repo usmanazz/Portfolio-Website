@@ -7,6 +7,7 @@ const ampd = {
   title: "Academic Mentorship Professional Development - UCLA",
   position: "Mentorship Director",
   year: "2019 - 2020",
+  link: "https://instagram.com/ampducla?utm_medium=copy_link",
   image: ampdImg,
   altText: "AMPD UCLA student organizaton logo",
   description: `Guided 80+ first year students to acclimate to college life by creating opportunities to network, create course schedules 
@@ -17,6 +18,7 @@ const maps = {
   title: "Mentors for Academic and Peer Support - UCLA",
   position: "Math and Science Academic Coordinator",
   year: "2017 - 2019",
+  link: "https://www.facebook.com/MentorsforAcademicandPeerSupport/",
   image: mapsImg,
   altText: "MAPS UCLA student organizaton logo",
   description: `Planned weekly math and science curriculum as additional material to complement 50+ middle and high school students’
@@ -28,6 +30,7 @@ const uvp = {
   title: "UMMA Volunteer Project - UCLA",
   position: "Science and Health Coordinator",
   year: "2019 - 2020",
+  link: "https://ummavp.weebly.com/",
   image: uvpImg,
   altText: "UVP UCLA student organizaton logo",
   description: `Conducted weekly site visits to underserved schools in South LA to teach about health, physical well-being and general 
@@ -38,6 +41,7 @@ const iytp = {
   title: "Incarcerated Youth Tutorial Project - UCLA",
   position: "Math Tutor",
   year: "2017 - 2019",
+  link: "https://iytp.weebly.com/",
   image: iytpImg,
   altText: "IYTP UCLA student organizaton logo",
   description: `Provided free Math tutoring services to students in continuation schools in Inglewood, LA. Served 15+ students during 

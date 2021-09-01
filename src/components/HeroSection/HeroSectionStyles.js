@@ -47,12 +47,43 @@ export const HeroSubTitle = styled.h2`
   }
 `;
 
+// export const HeroLinks = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   width: 200px;
+//   margin-top: 2rem;
+// `;
+
+// export const Icon = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 1.7rem;
+//   cursor: pointer;
+
+//   &:hover {
+//     color: #01bf71;
+//     transition: 0.3s;
+//   }
+// `;
+
 export const HeroLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 130px;
+  width: 200px;
   margin-top: 2rem;
+`;
+
+export const Link = styled.a`
+  color: #000;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  }
 `;
 
 export const Icon = styled.div`
@@ -61,11 +92,6 @@ export const Icon = styled.div`
   align-items: center;
   font-size: 1.7rem;
   cursor: pointer;
-
-  &:hover {
-    color: #01bf71;
-    transition: 0.3s;
-  }
 `;
 
 export const ArrowIcon = styled.div`

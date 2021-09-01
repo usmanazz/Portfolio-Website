@@ -12,6 +12,7 @@ import {
   ContactContainer,
   IconsContainer,
   Icon,
+  IconLink,
 } from "./FooterSectionStyles";
 
 const FooterSection = () => {
@@ -24,10 +25,17 @@ const FooterSection = () => {
         </Text>
         <IconsContainer>
           <Icon>
-            <GrMail />
+            <IconLink href="mailto:usman.naz212@gmail.com">
+              <GrMail />
+            </IconLink>
           </Icon>
           <Icon>
-            <FaLinkedin />
+            <IconLink
+              href="https://www.linkedin.com/in/usmannaz24/"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </IconLink>
           </Icon>
         </IconsContainer>
       </ContactContainer>

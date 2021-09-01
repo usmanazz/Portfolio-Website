@@ -12,6 +12,7 @@ import {
   ProjectLinks,
   Icon,
   Link,
+  LinkText,
   ProjectText,
   ProjectTech,
   TechList,
@@ -49,12 +50,24 @@ const Project = ({
             </ImgWrapper>
             <ProjectLinks>
               <Icon>
-                <VscSourceControl />
-                <Link>Source</Link>
+                <Link
+                  hasLink={links.github}
+                  href={links.github}
+                  target="_blank"
+                >
+                  <VscSourceControl />
+                  <LinkText>Source {!links.github ? "Private" : null}</LinkText>
+                </Link>
               </Icon>
               <Icon>
-                <FiExternalLink />
-                <Link>Live Demo</Link>
+                <Link
+                  hasLink={links.project}
+                  href={links.project}
+                  target="_blank"
+                >
+                  <FiExternalLink />
+                  <LinkText>Live Demo</LinkText>
+                </Link>
               </Icon>
             </ProjectLinks>
             <ProjectText>{description}</ProjectText>

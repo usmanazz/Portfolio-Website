@@ -19,6 +19,7 @@ const VolunteerExpSection = () => {
               title={v.title}
               position={v.position}
               year={v.year}
+              link={v.link}
               image={v.image}
               altText={v.altText}
               description={v.description}

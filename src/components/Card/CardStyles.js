@@ -29,6 +29,17 @@ export const Icon = styled.div`
   }
 `;
 
+export const Link = styled.a`
+  color: #000;
+  transition: 0.3s ease-out;
+  text-decoration: none;
+
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  }
+`;
+
 export const CardImgWrapper = styled.div`
   display: flex;
   justify-content: center;

@@ -19,6 +19,12 @@ export const LinkContainer = styled.div`
 
 export const Link = styled.a`
   text-decoration: none;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    transition: 0.3s ease-out;
+    opacity: 0.5;
+  }
 `;
 
 export const GithubContainer = styled.div`
@@ -70,4 +76,14 @@ export const Icon = styled.div`
   font-size: 1.2rem;
   color: #01bf71;
   cursor: pointer;
+`;
+
+export const IconLink = styled.a`
+  color: #01bf71;
+  transition: 0.3s ease-out;
+
+  &:hover {
+    transition: 0.3s ease-out;
+    opacity: 0.5;
+  }
 `;

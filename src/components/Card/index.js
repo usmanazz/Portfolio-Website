@@ -4,6 +4,7 @@ import {
   CardContainer,
   CardLinks,
   Icon,
+  Link,
   CardImg,
   CardTitle,
   CardSubtitle,
@@ -13,12 +14,14 @@ import {
   CardImgWrapper,
 } from "./CardStyles";
 
-const Card = ({ title, position, year, image, altText, description }) => {
+const Card = ({ title, position, year, link, image, altText, description }) => {
   return (
     <CardContainer>
       <CardLinks>
         <Icon>
-          <FiExternalLink />
+          <Link href={link} target="_blank">
+            <FiExternalLink />
+          </Link>
         </Icon>
       </CardLinks>
       <CardImgWrapper>

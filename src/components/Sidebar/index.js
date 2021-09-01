@@ -6,7 +6,9 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
+  ResumeLink,
 } from "./SidebarStyles";
+import resume from "../../files/Usman_Naz_resume.pdf";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
@@ -25,12 +27,12 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           <SidebarLink to="volunteer experience" onClick={toggleSidebar}>
             Volunteer Experience
           </SidebarLink>
-          <SidebarLink to="resume" onClick={toggleSidebar}>
-            Resume
-          </SidebarLink>
           <SidebarLink to="contact" onClick={toggleSidebar}>
             Contact
           </SidebarLink>
+          <ResumeLink href={resume} target="_blank" onClick={toggleSidebar}>
+            Resume
+          </ResumeLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>
