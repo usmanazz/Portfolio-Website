@@ -10,6 +10,7 @@ export const AboutContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 800px;
+    justify-content: flex-start;
   }
 
   @media screen and (max-width: 500px) {
