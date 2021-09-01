@@ -4,7 +4,21 @@ export const AboutContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 80px 24px 24px 24px;
+  height: 600px;
+
+  @media screen and (max-width: 768px) {
+    height: 800px;
+  }
+
+  @media screen and (max-width: 500px) {
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 400px) {
+    height: 1150px;
+  }
 `;
 
 export const AboutTitle = styled.h2`

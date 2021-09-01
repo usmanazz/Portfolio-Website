@@ -18,16 +18,20 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggleSidebar}>
+          <SidebarLink to="about" offset={-20} onClick={toggleSidebar}>
             About
           </SidebarLink>
-          <SidebarLink to="projects" onClick={toggleSidebar}>
+          <SidebarLink to="projects" offset={-20} onClick={toggleSidebar}>
             Projects
           </SidebarLink>
-          <SidebarLink to="leadership experience" onClick={toggleSidebar}>
+          <SidebarLink
+            to="leadership experience"
+            offset={-20}
+            onClick={toggleSidebar}
+          >
             Leadership Experience
           </SidebarLink>
-          <SidebarLink to="contact" onClick={toggleSidebar}>
+          <SidebarLink to="contact" offset={-20} onClick={toggleSidebar}>
             Contact
           </SidebarLink>
           <ResumeLink href={resume} target="_blank" onClick={toggleSidebar}>

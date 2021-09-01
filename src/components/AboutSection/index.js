@@ -18,10 +18,12 @@ const AboutSection = () => {
           <GreenText>Software Engineer/Development</GreenText> roles and have a
           passion for <GreenText>Front End</GreenText> and{" "}
           <GreenText>Full Stack Development</GreenText>. I recently{" "}
-          <GreenText>completed an internship</GreenText> as a Front End
-          Developer for a startup, Minbar.io, in early development where I
-          acquireed hands-on experience working in an Agile team environment,
-          got exposure to mobile development, and had an integral role in making
+          <GreenText>
+            completed an internship as a Front End Developer
+          </GreenText>{" "}
+          for a startup, Minbar.io, in early development where I acquireed
+          hands-on experience working in an Agile team environment, got exposure
+          to mobile development, and had an integral role in making
           design/feature related decisions. In addition, I am constanly working
           on personal projects to expand and improve my skillset. Check out my
           Github!
