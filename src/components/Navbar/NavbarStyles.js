@@ -28,7 +28,7 @@ export const NavbarContainer = styled.div`
   max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkScroll)`
+export const NavLogoContainer = styled(LinkScroll)`
   color: #000;
   justify-self: flex-start;
   font-size: 1.5rem;
@@ -38,6 +38,11 @@ export const NavLogo = styled(LinkScroll)`
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
+`;
+
+export const NavLogo = styled.img`
+  height: 50px;
+  width: 50px;
 `;
 
 export const MobileIcon = styled.div`

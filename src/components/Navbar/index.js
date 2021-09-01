@@ -2,6 +2,7 @@ import React from "react";
 import {
   Nav,
   NavbarContainer,
+  NavLogoContainer,
   NavLogo,
   MobileIcon,
   NavMenu,
@@ -11,6 +12,7 @@ import {
 } from "./NavbarStyles";
 import { FaBars } from "react-icons/fa";
 import resume from "../../files/Usman_Naz_resume.pdf";
+import logo from "../../images/personal_website_logo.png";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggleSidebar, footerHeight }) => {
@@ -22,9 +24,9 @@ const Navbar = ({ toggleSidebar, footerHeight }) => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/" onClick={goToTop}>
-            Naz
-          </NavLogo>
+          <NavLogoContainer to="/" onClick={goToTop}>
+            <NavLogo src={logo} altText="Usman Naz Logo" />
+          </NavLogoContainer>
           <MobileIcon onClick={toggleSidebar}>
             <FaBars />
           </MobileIcon>
