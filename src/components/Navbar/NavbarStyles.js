@@ -31,13 +31,13 @@ export const NavbarContainer = styled.div`
 export const NavLogo = styled(LinkScroll)`
   color: #fff;
   justify-self: flex-start;
-  cursor: pointeer;
   font-size: 1.5rem;
   display: flex;
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+  cursor: pointer;
 `;
 
 export const MobileIcon = styled.div`
