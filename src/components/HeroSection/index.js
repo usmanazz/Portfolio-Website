@@ -58,7 +58,7 @@ const HeroSection = () => {
           duration={500}
           spy={true}
           exact="true"
-          offset={-80}
+          offset={-20}
         >
           <ArrowIcon>
             <BsChevronDown />

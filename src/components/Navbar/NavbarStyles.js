@@ -3,8 +3,8 @@ import { Link as LinkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
   background: #fff;
-  height: 80px;
-  margin-top: -80px;
+  height: 70px;
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 70px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
@@ -48,7 +48,7 @@ export const NavLogo = styled.img`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: block;
     position: absolute;
     top: 0;
@@ -67,13 +67,13 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: 22px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: none;
   }
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 70px;
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -98,8 +98,4 @@ export const ResumeLink = styled.a`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-
-  /* &.active {
-    border-bottom: 3px solid #01bf71;
-  } */
 `;

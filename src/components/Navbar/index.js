@@ -15,7 +15,7 @@ import resume from "../../files/Usman_Naz_resume.pdf";
 import logo from "../../images/personal_website_logo.png";
 import { animateScroll as scroll } from "react-scroll";
 
-const Navbar = ({ toggleSidebar, footerHeight }) => {
+const Navbar = ({ toggleSidebar }) => {
   const goToTop = () => {
     scroll.scrollToTop();
   };
@@ -39,7 +39,7 @@ const Navbar = ({ toggleSidebar, footerHeight }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-20}
               >
                 About
               </NavLinks>
@@ -51,7 +51,7 @@ const Navbar = ({ toggleSidebar, footerHeight }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-20}
               >
                 Projects
               </NavLinks>
@@ -63,7 +63,7 @@ const Navbar = ({ toggleSidebar, footerHeight }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-20}
               >
                 Leadership Experience
               </NavLinks>
@@ -75,7 +75,7 @@ const Navbar = ({ toggleSidebar, footerHeight }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={-80}
+                offset={-20}
               >
                 Contact
               </NavLinks>
