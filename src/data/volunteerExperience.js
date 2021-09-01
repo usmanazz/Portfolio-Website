@@ -10,8 +10,8 @@ const ampd = {
   link: "https://instagram.com/ampducla?utm_medium=copy_link",
   image: ampdImg,
   altText: "AMPD UCLA student organizaton logo",
-  description: `Guided 80+ first year students to acclimate to college life by creating opportunities to network, create course schedules 
-    and receive constant mentorship from upperclassmen.`,
+  description: `Guided 80+ first year students to acclimate to college life by creating opportunities for them to network, 
+  organizing career workshops, planning course schedules and pairing them up with upperclassmen to receive constant mentorship.`,
 };
 
 const maps = {
@@ -44,7 +44,7 @@ const iytp = {
   link: "https://iytp.weebly.com/",
   image: iytpImg,
   altText: "IYTP UCLA student organizaton logo",
-  description: `Provided free Math tutoring services to students in continuation schools in Inglewood, LA. Served 15+ students during 
+  description: `Provided free Math tutoring services to students at continuation schools in Inglewood, LA. Served 15+ students during 
     weekly site visits. Subjects ranged from Algebra 1 to Pre-Calculus.`,
 };
 

@@ -27,8 +27,8 @@ const minbar = {
   creating a multi-page registration form with client-side validation, and communicating with backend and design
   teams to implement/optimize features.`,
   difficulty: `With COVID-19, everything was remote and it was difficult for us as a team to have constant communication
-  and recieve instant feedback on my code. In addition, since it was my first time in mobile devlopment, there was a considerable
-  learning curve the mentorship I would have potentially acquired if in person.`,
+  and recieve instant feedback on my code. In addition, since it was my first time with mobile development, there was a considerable
+  learning curve without the mentorship I would have potentially acquired if in person.`,
   solution: `To solve the communication issue, I made sure to be active on our discord and reached out to individual teams members
   that could help address any problems or questions I had. I was in constant contact with the Product Manager to ensure I was making the
   decisions and on track to complete my tasks. To address the learning curve issue, I asked team members for the best resources to learn
@@ -79,9 +79,9 @@ const zombieDash = {
   links: {
     github: "https://github.com/usmanazz/ZombieDash",
   },
-  description: `Created a Zombie Survival Game wher you play as a zombie hunter trekking through an abandoned building, rescuing 
+  description: `Created a Zombie Survival Game where you play as a zombie hunter trekking through an abandoned building, rescuing 
   frightened citizens before they are turned into brainless zombies. On each level, you must lead all of the citizens safely to the
-  level’s exit(s), then head through an exit to advance to the next level of the building. Kill zombies with fire or mines to earn points.
+  level’s exit(s), then head through an exit to advance to the next level of the building. Kill zombies with flames or mines to earn points.
   Once you have saved all of the citizens from every level, the game is over. Implemented in C++. Utilized Object Oriented Programming
   principles, STL, Data Structures.`,
   technologies: ["C++", "Visual Studio Code", "Object Oriented Design"],
