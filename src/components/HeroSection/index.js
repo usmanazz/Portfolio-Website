@@ -9,6 +9,7 @@ import {
   Link,
   ArrowAnimation,
   ArrowIcon,
+  ArrowLink,
 } from "./HeroSectionStyles";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
@@ -27,21 +28,6 @@ const HeroSection = () => {
         <HeroSubTitle>Full Stack</HeroSubTitle>
         <HeroSubTitle>Foodie</HeroSubTitle>
       </HeroSubTitleContainer>
-      {/* <HeroLinks>
-        <Icon>
-          <AiOutlineGithub />
-        </Icon>
-        <Icon>
-          <GrMail />
-        </Icon>
-        <Icon>
-          <FaLinkedin />
-        </Icon>
-        <Icon>
-          <ImProfile />
-        </Icon>
-      </HeroLinks> */}
-
       <HeroLinks>
         <Icon>
           <Link href="https://github.com/usmanazz" target="_blank">
@@ -66,9 +52,18 @@ const HeroSection = () => {
       </HeroLinks>
 
       <ArrowAnimation>
-        <ArrowIcon>
-          <BsChevronDown />
-        </ArrowIcon>
+        <ArrowLink
+          to="about"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-80}
+        >
+          <ArrowIcon>
+            <BsChevronDown />
+          </ArrowIcon>
+        </ArrowLink>
       </ArrowAnimation>
     </HeroContainer>
   );

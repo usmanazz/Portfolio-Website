@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
   display: flex;
@@ -46,27 +47,6 @@ export const HeroSubTitle = styled.h2`
     padding: 0 0.5rem;
   }
 `;
-
-// export const HeroLinks = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   width: 200px;
-//   margin-top: 2rem;
-// `;
-
-// export const Icon = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   font-size: 1.7rem;
-//   cursor: pointer;
-
-//   &:hover {
-//     color: #01bf71;
-//     transition: 0.3s;
-//   }
-// `;
 
 export const HeroLinks = styled.div`
   display: flex;
@@ -122,7 +102,6 @@ export const ArrowAnimation = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* padding-top: 6rem; */
   position: absolute;
   bottom: 2rem;
   animation: ${animate} 2s infinite;
@@ -135,3 +114,5 @@ export const ArrowAnimation = styled.div`
     animation-delay: -0.4s;
   }
 `;
+
+export const ArrowLink = styled(LinkScroll)``;
