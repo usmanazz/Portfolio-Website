@@ -9,8 +9,8 @@ import volunteerExp from "../../data/volunteerExperience";
 
 const VolunteerExpSection = () => {
   return (
-    <VolunteerExpContainer id="volunteer experience">
-      <VolunteerHeader>Volunteer Experience</VolunteerHeader>
+    <VolunteerExpContainer id="leadership experience">
+      <VolunteerHeader>Leadership Experience</VolunteerHeader>
       <CardsContainer>
         {volunteerExp.map((v, idx) => {
           return (

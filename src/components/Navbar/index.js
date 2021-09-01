@@ -29,8 +29,8 @@ const Navbar = ({ toggleSidebar }) => {
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="volunteer experience">
-                Volunteer Experience
+              <NavLinks to="leadership experience">
+                Leadership Experience
               </NavLinks>
             </NavItem>
             <NavItem>
