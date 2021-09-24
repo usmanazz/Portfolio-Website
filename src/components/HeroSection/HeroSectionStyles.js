@@ -3,6 +3,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -103,7 +104,7 @@ export const ArrowAnimation = styled.div`
   justify-content: center;
   flex-direction: column;
   position: absolute;
-  bottom: 2rem;
+  bottom: 6rem;
   animation: ${animate} 2s infinite;
 
   & ${ArrowIcon}:nth-child(2) {
@@ -112,6 +113,10 @@ export const ArrowAnimation = styled.div`
 
   & ${ArrowIcon}:nth-child(3) {
     animation-delay: -0.4s;
+  }
+
+  @media screen and (max-width: 400px) {
+    bottom: 8rem;
   }
 `;
 
