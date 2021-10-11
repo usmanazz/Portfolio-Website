@@ -116,7 +116,7 @@ export const ArrowAnimation = styled.div`
   }
 
   @media screen and (max-width: 400px) {
-    bottom: 8rem;
+    bottom: 10rem;
   }
 `;
 
