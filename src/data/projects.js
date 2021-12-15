@@ -13,7 +13,7 @@ const minbar = {
   imageHeight: 350,
   altText: "minbar app",
   links: {},
-  description: `Built React Native app as a Front End Engineering Intern with a team of 7 that aims to solve 
+  description: `Implemented UI components in React Native to create an app with a team of 7 that aims to solve 
   logisitical challenges to book speakers for Friday Prayer Services.`,
   technologies: [
     "React Native",

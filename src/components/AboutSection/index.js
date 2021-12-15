@@ -19,7 +19,7 @@ const AboutSection = () => {
           passion for <GreenText>Front End</GreenText> and{" "}
           <GreenText>Full Stack Development</GreenText>. I recently{" "}
           <GreenText>
-            completed an internship as a Front End Developer
+            completed an internship as a Software Engineering Intern
           </GreenText>{" "}
           for a startup, Minbar.io, in early development where I acquireed
           hands-on experience working in an Agile team environment, got exposure
