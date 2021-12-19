@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.08ffdc13.chunk.css",
-    "main.js": "/my-website/static/js/main.6891fddf.chunk.js",
-    "main.js.map": "/my-website/static/js/main.6891fddf.chunk.js.map",
+    "main.js": "/my-website/static/js/main.4be6eccf.chunk.js",
+    "main.js.map": "/my-website/static/js/main.4be6eccf.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.f61bac16.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.f61bac16.js.map",
     "static/js/2.a45f4afa.chunk.js": "/my-website/static/js/2.a45f4afa.chunk.js",
@@ -17,7 +17,6 @@
     "static/media/grade_calculator_script.4f0f4afe.png": "/my-website/static/media/grade_calculator_script.4f0f4afe.png",
     "static/media/iytp.0e0c6615.webp": "/my-website/static/media/iytp.0e0c6615.webp",
     "static/media/maps.a2598d99.webp": "/my-website/static/media/maps.a2598d99.webp",
-    "static/media/minbar.aec37ae5.png": "/my-website/static/media/minbar.aec37ae5.png",
     "static/media/spotifylist.4e1a7887.png": "/my-website/static/media/spotifylist.4e1a7887.png",
     "static/media/uvp.36427ecb.webp": "/my-website/static/media/uvp.36427ecb.webp",
     "static/media/zombiedash.5f5aa0a9.png": "/my-website/static/media/zombiedash.5f5aa0a9.png"
@@ -26,6 +25,6 @@
     "static/js/runtime-main.f61bac16.js",
     "static/js/2.a45f4afa.chunk.js",
     "static/css/main.08ffdc13.chunk.css",
-    "static/js/main.6891fddf.chunk.js"
+    "static/js/main.4be6eccf.chunk.js"
   ]
 }
