@@ -21,12 +21,11 @@ const AboutSection = () => {
           <GreenText>
             completed an internship as a Software Engineering Intern
           </GreenText>{" "}
-          for a startup, Minbar.io, in early development where I acquireed
-          hands-on experience working in an Agile team environment, got exposure
-          to mobile development, and had an integral role in making
-          design/feature related decisions. In addition, I am constantly working
-          on personal projects to expand and improve my skillset. Check out my
-          Github!
+          for Minbar.io in early development where I acquireed hands-on
+          experience working in an Agile team environment, got exposure to
+          mobile development, and had an integral role in making design/feature
+          related decisions. In addition, I am constantly working on personal
+          projects to expand and improve my skillset. Check out my Github!
           <br />
           <br />
           <GreenText>Relevant courses</GreenText> I took at UCLA include: Data
