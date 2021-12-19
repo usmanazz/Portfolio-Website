@@ -8,7 +8,7 @@ import {
   SidebarLink,
   ResumeLink,
 } from "./SidebarStyles";
-import resume from "../../files/Usman_Naz_resume_Sept_2021_v2.pdf";
+import resume from "../../files/Usman_Naz_Resume.pdf";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (

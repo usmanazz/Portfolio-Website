@@ -16,7 +16,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsChevronDown } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { ImProfile } from "react-icons/im";
-import resume from "../../files/Usman_Naz_resume_Sept_2021_v2.pdf";
+import resume from "../../files/Usman_Naz_Resume.pdf";
 
 const HeroSection = () => {
   return (

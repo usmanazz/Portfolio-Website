@@ -11,7 +11,7 @@ import {
   ResumeLink,
 } from "./NavbarStyles";
 import { FaBars } from "react-icons/fa";
-import resume from "../../files/Usman_Naz_resume_Sept_2021_v2.pdf";
+import resume from "../../files/Usman_Naz_Resume.pdf";
 import logo from "../../images/personal_website_logo.png";
 import { animateScroll as scroll } from "react-scroll";
 
