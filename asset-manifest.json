@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.08ffdc13.chunk.css",
-    "main.js": "/my-website/static/js/main.4be6eccf.chunk.js",
-    "main.js.map": "/my-website/static/js/main.4be6eccf.chunk.js.map",
+    "main.js": "/my-website/static/js/main.1a66fb9c.chunk.js",
+    "main.js.map": "/my-website/static/js/main.1a66fb9c.chunk.js.map",
     "runtime-main.js": "/my-website/static/js/runtime-main.f61bac16.js",
     "runtime-main.js.map": "/my-website/static/js/runtime-main.f61bac16.js.map",
     "static/js/2.a45f4afa.chunk.js": "/my-website/static/js/2.a45f4afa.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/my-website/index.html",
     "static/css/main.08ffdc13.chunk.css.map": "/my-website/static/css/main.08ffdc13.chunk.css.map",
     "static/js/2.a45f4afa.chunk.js.LICENSE.txt": "/my-website/static/js/2.a45f4afa.chunk.js.LICENSE.txt",
-    "static/media/Usman_Naz_resume_Sept_2021_v2.d61ae858.pdf": "/my-website/static/media/Usman_Naz_resume_Sept_2021_v2.d61ae858.pdf",
+    "static/media/Usman_Naz_Resume.b867f26f.pdf": "/my-website/static/media/Usman_Naz_Resume.b867f26f.pdf",
     "static/media/ampd.ed501c7b.webp": "/my-website/static/media/ampd.ed501c7b.webp",
     "static/media/food-spoon-fork-logo.e980fcfa.jpeg": "/my-website/static/media/food-spoon-fork-logo.e980fcfa.jpeg",
     "static/media/geenomics.de72e78b.png": "/my-website/static/media/geenomics.de72e78b.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.f61bac16.js",
     "static/js/2.a45f4afa.chunk.js",
     "static/css/main.08ffdc13.chunk.css",
-    "static/js/main.4be6eccf.chunk.js"
+    "static/js/main.1a66fb9c.chunk.js"
   ]
 }
